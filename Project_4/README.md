@@ -81,7 +81,7 @@ address - The addres that you used in last step
 signature - You can take it from the Electrum wallet or make it by code (see test/index.test.js)
 ```
 
-<img src="https://albumizr.com/skins/bandana/index.php?key=yUPZ#2">
+<img src="https://albumizr.com/ia/fa77a6cfb7aa1c6ce135a7827a6c5bf4.jpg">
 
 ### 3. Star registration
 
@@ -106,7 +106,7 @@ star - Containing dec, ra and story (max 500 bytes)
 
 **Example**
 
-<img src="https://albumizr.com/skins/bandana/index.php?key=yUPZ#3">
+<img src="https://albumizr.com/ia/fbc338caeeb80557156355df038124a7.jpg">
 
 ### 4. Get block by height
 
@@ -130,7 +130,7 @@ height - The height of block
 
 **Example**
 
-<img src="https://albumizr.com/skins/bandana/index.php?key=yUPZ#4">
+<img src="https://albumizr.com/ia/7fe17a28876e98d59c50aaacfd8389da.jpg">
 
 ### 5. Get block by address
 
@@ -154,7 +154,7 @@ address - The address used so far
 
 **Example**
 
-<img src="https://albumizr.com/skins/bandana/index.php?key=yUPZ#5">
+<img src="https://albumizr.com/ia/9b6cf0970b622603cc08b4153e08372a.jpg">
 
 ### 6. Get block by hash
 
@@ -178,7 +178,7 @@ hash - The hash of one block created before
 
 **Example**
 
-<img src="https://albumizr.com/skins/bandana/index.php?key=yUPZ#6">
+<img src="https://albumizr.com/ia/f7a8eb028d45c462ac6c000d9d0f8c26.jpg">
 
 ## Udacity honor code
 
