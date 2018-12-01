@@ -58,7 +58,7 @@ address - A bitcoin address, you can take it from your project1
 
 **Example**
 
-<img src="https://albumizr.com/skins/bandana/index.php?key=yUPZ#1">
+<iframe src="https://albumizr.com/a/tITP" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
 
 ### 2. Blockchain ID message signature validation
 
