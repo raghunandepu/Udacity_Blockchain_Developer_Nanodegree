@@ -11,27 +11,19 @@ Installing Node and NPM is pretty straightforward using the installer package av
 
 ### Configuring your project
 
-
+## Run:
+- Go to directory smart_contracts
+```
+cd smart_contracts
+```
 - Install requirements (within smart_contracts folder)
 ```
 npm install 
 ```
-- Install Metamask plugin for chrome
-
-- To allow Metamask to work properly as a chrome plugin, you need to host your 
-webpage (index.html) on a local server. For this purpose install http-server 
-node module to create a local server with 
-```
-npm install -g http-server 
-```
-
-- Metascan must be connected to your wallet. Your need to add ether to your wallet from a faucet.
-- When your web app interacts with your wallet, a Metascan confirmation will pop-up for you to confirm like below
-![p5_metamask_notif](https://user-images.githubusercontent.com/15610147/47234161-92dd2600-d3dd-11e8-84cb-5ba846c40260.png)
 
 ## Contract deployment
 ```
-$> truffle migrate --network rinkeby --reset --compile-all 
+$>truffle migrate --network rinkeby --reset --compile-all 
 Compiling ./contracts/Migrations.sol...
 Compiling ./contracts/StarNotary.sol...
 Compiling openzeppelin-solidity/contracts/introspection/ERC165.sol...
@@ -47,40 +39,32 @@ Using network 'rinkeby'.
 
 Running migration: 1_initial_migration.js
   Deploying Migrations...
-  ... 0x9a387da61512e7ac44ad468a223dabe1863d650bc050c1a57d1035beb92167ce
-  Migrations: 0x40475be804729b7160c611473be57aa9da26faaf
+  ... 0xdffa67103d3aed95561a717f9fbdcece8d21f52f69c67c34f2c8d177c26b1a15
+  Migrations: 0x7d797a9eba749a60416951aac0e2a0313dcc0c14
 Saving successful migration to network...
-  ... 0x160a21378c31f0823518d426e8ad72e66a0c408391a7c7c6e3892bf85758e758
+  ... 0x5ff621d586c8e32baacafd2860e53d4957fa8169b96d01266d7d350bf5c1e28d
 Saving artifacts...
 Running migration: 2_deploy_contracts.js
   Deploying StarNotary...
-  ... 0x2ef84ec29d3e90e34ac829597db0986de0fb3786fc4eef59b88a80299ba63f99
-  StarNotary: 0x71f69a770f2a41079b699cf6ba8c114ec39f2f02
+  ... 0x6ae9df82d85f708924bec5f13001c8a1214e6e4ffac8db8bdb88fa9868bb82c2
+  StarNotary: 0xc5aabed7aeb31e67c99988e0ee4f2b3a68c0b0a1
 Saving successful migration to network...
-  ... 0xb971df4286597a83ba04da8a74f10878f4786c81bbbaad47d9bfaad4e8796cd7
+  ... 0x35380877e95c27930448a0cc589439709f46d515fb9de31e989f4ebf091ce509
 Saving artifacts...
+
 ```
 
 
 ## View details on Etherscan
 ### Contract address 
-https://rinkeby.etherscan.io/address/0x71f69a770f2a41079b699cf6ba8c114ec39f2f02
+0x6ae9df82d85f708924bec5f13001c8a1214e6e4ffac8db8bdb88fa9868bb82c2
+https://rinkeby.etherscan.io/address/0xc5aabed7aeb31e67c99988e0ee4f2b3a68c0b0a1
 
 
 ### Transaction information
 ```
-TxHash:0x2ef84ec29d3e90e34ac829597db0986de0fb3786fc4eef59b88a80299ba63f99 
-TxReceipt Status:Success
+TxHash:
+0x6ae9df82d85f708924bec5f13001c8a1214e6e4ffac8db8bdb88fa9868bb82c2
+TxReceipt Status:
+Success
 ```
-https://rinkeby.etherscan.io/tx/0x2ef84ec29d3e90e34ac829597db0986de0fb3786fc4eef59b88a80299ba63f99
-
-### Star claim transaction
-```
-TxHash:0x24b77dc518b533f21f7a8fd4536d539812efd1209612de81893444783f03e24c 
-TxReceipt Status:Success
-```
- https://rinkeby.etherscan.io/tx/0x24b77dc518b533f21f7a8fd4536d539812efd1209612de81893444783f03e24c
- 
- #### Attributions
- 1. Deploying a Smart Contract in Rinkeby using Infura 
- https://walkingtree.tech/deploying-a-smart-contract-in-rinkeby-using-infura/
