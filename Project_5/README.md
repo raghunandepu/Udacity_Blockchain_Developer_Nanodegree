@@ -61,10 +61,16 @@ Saving artifacts...
 https://rinkeby.etherscan.io/address/0xc5aabed7aeb31e67c99988e0ee4f2b3a68c0b0a1
 
 
-### Transaction information
+### Contract Transaction information
 ```
 TxHash:
 0x6ae9df82d85f708924bec5f13001c8a1214e6e4ffac8db8bdb88fa9868bb82c2
 TxReceipt Status:
 Success
 ```
+
+### Create star Transaction:
+https://rinkeby.etherscan.io/tx/0x6f62794ff787aef44cae1c1fccb22f5d7a5c6e9f8ab04f982f281608bacc2550
+
+### putStarUpForSale transaction:
+https://rinkeby.etherscan.io/tx/0xf332e5047b159552aeac7f85125c7c373cb39e2b25b776d741ad48d75e1bd73d
